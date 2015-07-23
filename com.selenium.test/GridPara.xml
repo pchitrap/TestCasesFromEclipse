@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="3"  parallel="tests">
+<test name="Firefox browser cases">
+<parameter name="BrowserType" value="firefox"></parameter>
+<classes>
+      <class name="com.selenium.test.GridParallel"/>       
+</classes>
+</test>
+<test name="Chrome browser cases">
+<parameter name="BrowserType" value="chrome"></parameter>
+<classes>
+ <class name="com.selenium.test.GridParallel"/>
+</classes>
+</test> 
+</suite>

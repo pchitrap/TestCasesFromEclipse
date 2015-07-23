@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.test.simpleTestng2">
+        <methods>
+          <include name="typeText"/>
+        </methods>
+      </class> <!-- com.selenium.test.simpleTestng2 -->
+    </classes>
+  </test> <!-- test2(failed) -->
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.test.simpleTestng2">
+        <methods>
+          <include name="typeText"/>
+        </methods>
+      </class> <!-- com.selenium.test.simpleTestng2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

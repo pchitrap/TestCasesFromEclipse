@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="28476" started-at="2015-07-15T15:22:49Z" finished-at="2015-07-15T15:23:17Z">
+    <groups>
+    </groups>
+    <test name="Chrome browser cases" duration-ms="19706" started-at="2015-07-15T15:22:49Z" finished-at="2015-07-15T15:23:09Z">
+      <class name="com.selenium.test.GridParallel">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.test.GridParallel@b684286]" name="setUp" is-config="true" duration-ms="7374" started-at="2015-07-15T20:52:49Z" finished-at="2015-07-15T20:52:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="textType()[pri:0, instance:com.selenium.test.GridParallel@b684286]" name="textType" duration-ms="7208" started-at="2015-07-15T20:52:56Z" finished-at="2015-07-15T20:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textType -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.selenium.test.GridParallel@b684286]" name="stop" is-config="true" duration-ms="5037" started-at="2015-07-15T20:53:04Z" finished-at="2015-07-15T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.selenium.test.GridParallel -->
+    </test> <!-- Chrome browser cases -->
+    <test name="Firefox browser cases" duration-ms="28476" started-at="2015-07-15T15:22:49Z" finished-at="2015-07-15T15:23:17Z">
+      <class name="com.selenium.test.GridParallel">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.test.GridParallel@5ba23b66]" name="setUp" is-config="true" duration-ms="16351" started-at="2015-07-15T20:52:49Z" finished-at="2015-07-15T20:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="textType()[pri:0, instance:com.selenium.test.GridParallel@5ba23b66]" name="textType" duration-ms="4922" started-at="2015-07-15T20:53:05Z" finished-at="2015-07-15T20:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textType -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.selenium.test.GridParallel@5ba23b66]" name="stop" is-config="true" duration-ms="7109" started-at="2015-07-15T20:53:10Z" finished-at="2015-07-15T20:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.selenium.test.GridParallel -->
+    </test> <!-- Firefox browser cases -->
+  </suite> <!-- Suite1 -->
+</testng-results>

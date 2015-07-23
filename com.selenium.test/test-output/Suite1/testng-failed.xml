@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="BrowserType" value="chrome"/>
+  <test name="Firefox browser cases(failed)" parallel="tests">
+    <parameter name="BrowserType" value="firefox"/>
+    <classes>
+      <class name="com.selenium.test.SimpleTestNg">
+        <methods>
+          <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="typeText"/>
+        </methods>
+      </class> <!-- com.selenium.test.SimpleTestNg -->
+    </classes>
+  </test> <!-- Firefox browser cases(failed) -->
+  <test name="Chrome browser cases(failed)" parallel="tests">
+    <parameter name="BrowserType" value="chrome"/>
+    <classes>
+      <class name="com.selenium.test.SimpleTestNg">
+        <methods>
+          <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="typeText"/>
+        </methods>
+      </class> <!-- com.selenium.test.SimpleTestNg -->
+    </classes>
+  </test> <!-- Chrome browser cases(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
